@@ -7,4 +7,4 @@ Simple game made using Bitsy
 no links
 
 ## Gameplay Snapshots
-<img src="./readme/test.gif/readme/vent.gif">
+<img src="https://github.com/IdealistCat/School/blob/main/readme/test.gif" width="200">

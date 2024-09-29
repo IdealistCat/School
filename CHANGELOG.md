@@ -7,6 +7,7 @@
   - Teacher changes dialogue after the first interaction
 - Added Computer to the Back
   - Added Key Code/Key (required)
+- Added Colors to certain Sprites and Tiles
 - Changed Hallway (mainly Lockers)
   - Added Locker with Key Code/Key
 
@@ -16,4 +17,3 @@
     - Features Teacher
     - Features Vent (no room for it)
   - Hallway (basic)
-  

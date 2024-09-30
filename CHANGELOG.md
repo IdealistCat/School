@@ -1,3 +1,32 @@
+# 0.3 - 9/39/2024
+- Removed Unused Rooms
+  - Class/Start-red
+  - Hallway-red
+  - Closet
+- Removed Many Unused Tiles
+- Added 2 New Interactable Locker Types
+  - Locker that gives Apple
+  - Locker that gives Key to exit
+- Changed Apple Dialogue to match narration style
+- Changed Hall Room
+  - Added Exit (requires key)
+    - Added "Cheep" Ending
+  - Added 2 Room Paths
+    - Bathrooms
+      - Added Boys Bathroom
+      - Added Girls Bathroom
+    - Another Hallway
+      - 4 Room Paths
+        - Class Bunch (takes 2)
+          - Added "frai" item
+        - Basement
+        - Detention
+          - Added Second Teacher
+- Added "Victory" Ending
+  - Added Interaction with the Masked-Man (game knows him as "satan") to get here
+  - Added new Masked-Man Sprite for this Ending
+- Changed Every room to have white tiles where there is nothing there
+
 # 0.2 - 9/28/2024
 - Added Ending
   - Added new Room

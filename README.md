@@ -1,11 +1,15 @@
 # School
 Game Made using Bitsy.
 <br>
-<img src="./readme/v0.3/title.gif" width="200">
+<img src="./readme/v0.3.1/title.gif" width="200">
 
 Play a Cryptic School Game where there might be something suspicious going on...
 <br>
 <img src="./readme/v0.3/cryptic.gif" width="200">
+
+Expore the Halls
+<br>
+<img src="./readme/v0.3.1/secondhall.gif" width="200">
 
 Grab an Apple
 <br>

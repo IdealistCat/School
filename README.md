@@ -35,14 +35,6 @@ Stay away from the Basement
 <br>
 <img src="./readme/v0.3/cig.gif" width="200">
 
-Clean your mess
-<br>
-<img src="./readme/v0.3/boysBR.gif" width="200">
-
-Stay outta there
-<br>
-<img src="./readme/v0.3/girlsBR.gif" width="200">
-
 Grab some Frai
 <br>
 <img src="./readme/v0.3/frai.gif" width="200">

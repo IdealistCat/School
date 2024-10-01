@@ -1,3 +1,10 @@
+# 0.3.3 - 10/1/2024
+* Fixed “You don’t the Exit Key” Dialogue
+* Removed Unused Change log Paper Sprite
+* Added 10 Students in the Hallway (A-J)
+* Fixed “seat-L” tile asset
+* Fixed “seat-L” wall status
+
 # 0.3.2 - 9/30/2024
 * Fixed being able to move in the Dirt and Grass on the Victory Screen
 * Fixed Victory Dialogue

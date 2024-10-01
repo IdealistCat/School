@@ -1,3 +1,9 @@
+# 0.3.2 - 9/30/2024
+* Fixed being able to move in the Dirt and Grass on the Victory Screen
+* Fixed Victory Dialogue
+* Changed Changelog Locker to Changelog Paper
+* Added Status Locker
+
 # 0.3.1 - 9/30/2024
 * Changed Changelog Format
 * Added missing white tiles to the Bathrooms

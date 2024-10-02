@@ -2,6 +2,8 @@
 - Blog Page JSON thingerz now can have different img extensions
 - Moved description to be right below blog post title
 - embeded games are now 500px by 500px
+- v0.3.4 release
+- tester blog page with ADVANCED JSONS
 
 # 0.1 - 10/1/2024
 - Blog Page with JSONS (i have an addiction)

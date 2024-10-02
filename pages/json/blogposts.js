@@ -50,7 +50,7 @@ export const posts = [
     description: "obvious",
     date: "October 1st 2024",
     author: "IdealistCat",
-    tags: ["unserious", "fpotm", "teset"], // fpotm = first post of the month
+    tags: ["unserious", "fpotm", "tester"], // fpotm = first post of the month
     blog: [
       "hello!!",
       "why did i do this you are most likely asking.",

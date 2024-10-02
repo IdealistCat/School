@@ -6,18 +6,23 @@
     <title>School Version Select</title>
 </head>
 <body>
+    <h1>Latest Update: <h1 id="latest"></h1></h1>
     <h1>PLAYABLE VERSIONS!!!!!!!</h1>
-    <a href="./releases/v0.1.html">Play v0.1 - The Start (WARNING: not alot of gameplay)</a><br>
-    <a href="./releases/v0.2.html">Play v0.2 - Keycode Update</a><br>
-    <a href="./releases/v0.3.html">Play v0.3 - Ending Update</a><br>
-    <a href="./releases/v0.3.1.html">Play v0.3.1</a><br>
-    <a href="./releases/v0.3.2.html">Play v0.3.2</a><br>
-    <a href="./releases/v0.3.3.html" id="latest">Play v0.3.3 - Classmate Update</a><br>
+    <a href="./releases/v0.1.html" id="0.1">Play v0.1 - The Start (WARNING: not alot of gameplay)</a><br>
+    <a href="./releases/v0.2.html" id="0.2">Play v0.2 - Keycode Update</a><br>
+    <a href="./releases/v0.3.html" id="0.3">Play v0.3 - Ending Update</a><br>
+    <a href="./releases/v0.3.1.html" id="0.3.1">Play v0.3.1</a><br>
+    <a href="./releases/v0.3.2.html" id="0.3.2">Play v0.3.2</a><br>
+    <a href="./releases/v0.3.3.html" id="0.3.3">Play v0.3.3 - Classmate Update</a><br>
     <h1>FYI</h1>
     <p>I couldn't get a go back button to work so you have to use the back buttons on the tab. Sorry!</p>
 
     <script>
-     document.getElementById('latest').innerHTML += ' (Latest Release!)';
+     var latest = "0.3.3";
+
+     document.getElementById(latest).innerHTML += ' (Latest Release!)';
+     document.getElementById('latest').innerHTML = `v${latest}`;
+
     </script>
 </body>
 </html>

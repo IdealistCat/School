@@ -38,10 +38,10 @@ for (let index = 0; index < posts.length; index++) {
     var new_line_content = null;
 
     switch (line_type.toLowerCase()) {
-      case 'image':
+      case 'text':
         new_line_element = 'p';
         new_line_content = lineEl.innerHTML;
-      case 'text':
+      case 'image':
         new_line_element = 'img';
         new_line_content = imgEl.src;
     }

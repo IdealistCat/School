@@ -7,7 +7,7 @@
 </head>
 <body>
     <pre>School Site Version v0.1.1</pre>
-    <h1>Latest Game Update:</h1><h2 id="latest"></h2>
+    <h1>Latest Game Update:</h1><a id="latest"></a>
     <h1>Blog!!!</h1>
     <a href="./pages/blog.html">Epic Blog!</a>
     <h1>PLAYABLE VERSIONS!!!!!!!</h1>
@@ -26,6 +26,7 @@
 
      document.getElementById(latest).innerHTML += ' (Latest Release!)';
      document.getElementById('latest').innerHTML = `v${latest}`;
+     document.getElementById('latest').href = latest;
 
     </script>
 </body>

@@ -31,7 +31,7 @@ for (let index = 0; index < posts.length; index++) {
     const line = post.blog[index];
     const line_type = line.type;
 
-    lineEl.innerHTML = line.content + "</p><p>";
+    lineEl.innerHTML = line.content;
     imgEl.src = `/School/blogStuff/${line.content}.${line.ext != undefined ? line.ext : 'png'}`;
 
     var new_line_element = null;

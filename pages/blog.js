@@ -19,7 +19,7 @@ for (let index = 0; index < posts.length; index++) {
     const tag = post.tags[index];
 
     curTag.innerHTML = "#" + tag + ' ';
-    curTag.style = "color: 0x00000077";
+    curTag.style = "color: 0x777777";
   }
 
   tags.append(curTag);

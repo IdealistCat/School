@@ -41,8 +41,8 @@ Interesting
 
 Endings!
 <br>
-<img src="./readme/v0.3.4/newending.gif" width="200">
+<img src="./readme/v0.3.4/thefourthEnding.gif" width="200">
 
 Dont go too far into the mystery though.
 <br>
-<img src="./readme/v0.3.4/secretRoom.gif" width="200">
+<img src="./readme/v0.3.4/secretRoom!.gif" width="200">

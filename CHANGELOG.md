@@ -55,7 +55,7 @@
   * Added new Room
 * Added Apples
   * Added ability to give Teacher Apples
-* Added teachTalk variables
+* Added teachTalk variable
   * Teacher changes dialogue after the first interaction
 * Added Computer to the Back
   * Added Key Code/Key (required)

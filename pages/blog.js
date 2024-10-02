@@ -40,7 +40,7 @@ for (let index = 0; index < posts.length; index++) {
 
   if (post.img_url != undefined) {
     var image = document.createElement("img");
-    image.src = "/School/" + post.img_url + ".png";
+    image.src = "/School/blogStuff/" + post.img_url + "."+(post.img_ext != undefined ? post.img_ext : 'png');
 
     posDiv.append(image);
   }

@@ -1,3 +1,6 @@
+# 0.1.1 - 10/2/2024
+- Blog Page JSON thingerz now can have different img extensions
+
 # 0.1 - 10/1/2024
 - Blog Page with JSONS (i have an addiction)
 - v0.3.3 release today

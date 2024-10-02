@@ -1,12 +1,33 @@
 export const posts = [
   {
+    title: "v0.3.4 update blog!!",
+    description: "first blog frfr",
+    date: "10/2/2024",
+    author: "IdealistCat",
+    tags: ["serious"],
+    blog: [
+      "progress on v0.3.4 has been somehwhat slow",
+      "because I had no ideas",
+      ":(",
+      "sadness indeed",
+      "but I knww there was SOMETHING",
+      "i can do.",
+      "but what?",
+      '"I could add more to the "red zone" of the school but how?"',
+      "probably a secret path",
+      "yeah, probably..."
+    ],
+    img_url: "secretRoom",
+    img_ext: "gif"
+  },
+  {
     title: "third tester blog jesus!",
     description: "obvious",
     date: "October 1st 2024",
     author: "IdealistCat",
-    tags: ["tester"],
+    tags: ["tester", "unserious"],
     blog: ["IMAGE!??!?!?!?!?"],
-    img_url: "blogStuff/testerImage",
+    img_url: "testerImage",
   },
   {
     title: "second blog lolz!",

@@ -13,13 +13,16 @@ for (let index = 0; index < posts.length; index++) {
   description.innerHTML = post.description;
   date.innerHTML = post.date;
 
+  var curTag = document.createElement("p");
+
   for (let index = 0; index < post.tags.length; index++) {
     const tag = post.tags[index];
 
-    var curTag = document.createElement("p");
-    curTag.innerHTML = "#" + tag;
-    // tags.append(curTag);
+    curTag.innerHTML = "#" + tag + ' ';
+    curTag.style = "color: 0x00000077";
   }
+
+  tags.append(curTag);
 
   var lineEl = document.createElement("p");
 
@@ -34,8 +37,8 @@ for (let index = 0; index < posts.length; index++) {
   var posDiv = document.getElementById("posts");
   posDiv.append(title);
   posDiv.append(date);
+  posDiv.append(tags);
   posDiv.append(description);
-  // document.append(tags);
   posDiv.append(blog);
 
   if (post.img_url != undefined) {

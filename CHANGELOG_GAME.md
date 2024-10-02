@@ -1,3 +1,12 @@
+# 0.3.4 - 10/2/2024
+* Changed Default Wall Texture
+* Added Secret Path to the Backroom
+* Changed Redzone Room slightly
+* Added secret path to the red zone
+* Added 4th Ending: Murder Ending
+* Changed Chomp SFX
+* Removed Unused SFX
+
 # 0.3.3 - 10/1/2024
 * Fixed “You don’t the Exit Key” Dialogue
 * Removed Unused Change log Paper Sprite

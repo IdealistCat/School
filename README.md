@@ -23,19 +23,26 @@ See a new School Project
 <br>
 <img src="./readme/v0.3/newProj.gif" width="200">
 
-Check out
-3
-<br>
-<img src="./readme/v0.3/ending1.gif" width="200">
-
-Interesting
-<br>
-<img src="./readme/v0.3/ending2.gif" width="200">
-
-Endings
-<br>
-<img src="./readme/v0.3/ending3.gif" width="200">
-
 Hang out with your Classmates
 <br>
 <img src="./readme/v0.3.3/hall.gif" width="200">
+
+Check out
+<br>
+<img src="./readme/v0.3/ending1.gif" width="200">
+
+4
+<br>
+<img src="./readme/v0.3/ending2.gif" width="200">
+
+Interesting
+<br>
+<img src="./readme/v0.3/ending3.gif" width="200">
+
+Endings!
+<br>
+<img src="./readme/v0.3.4/ending4.gif" width="200">
+
+Dont go too far into the mystery though.
+<br>
+<img src="./readme/v0.3.4/secretRoom.gif" width="200">

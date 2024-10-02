@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>School Blog</title>
-</head>
-<body>
+  </head>
+  <body>
     <a href="../index.html">Go back</a>
-</body>
+
+    <h1>Posts</h1>
+    <div id="posts"></div>
+
+    <script>
+      var posts = [
+        {
+          title: "first blog lolz!",
+          description: "obvious",
+          date: "October 1st 2024",
+          author: "IdealistCat",
+          tags: ["unserious", "first", "spookymonth"],
+          blog: [
+            "hello!!",
+            "why did i do this you are most likely asking.",
+            "Idk!",
+            "I have a cripling addiction to find an excuse for more web coding",
+            "LOL!",
+          ],
+        },
+      ];
+
+      for (let index = 0; index < posts.length; index++) {
+        const post = posts[index];
+
+        var title = document.createElement("h1");
+        var description = document.createElement("h3");
+        var date = document.createElement("h3");
+        var tags = document.createElement("div");
+        var blog = document.createElement("div");
+
+        title.innerHTML = post.title + ' by ' + post.author;
+        description.innerHTML = post.description;
+        date.innerHTML = post.date;
+
+        for (let index = 0; index < post.tags.length; index++) {
+            const tag = post.tags[index];
+            
+            var curTag = document.createElement('p');
+            curTag.innerHTML = '#'+tag;
+            // tags.append(curTag);
+        }
+
+        for (let index = 0; index < post.blog.length; index++) {
+            const line = post.blog[index];
+            
+            var lineEl = document.createElement('p');
+            lineEl.innerHTML = line;
+            blog.append(lineEl);
+        }
+
+        document.append(title);
+        document.append(description);
+        document.append(date);
+        // document.append(tags);
+        document.append(blogs);
+      }
+    </script>
+  </body>
 </html>

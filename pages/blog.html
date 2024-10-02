@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>School Blog</title>
+    <script src="https://markknol.github.io/console-log-viewer/console-log-viewer.js"></script>
   </head>
   <body>
     <a href="../index.html">Go back</a>
@@ -25,8 +26,8 @@
             "Idk!",
             "I have a cripling addiction to find an excuse for more web coding",
             "LOL!",
-          ],
-        },
+          ]
+        }
       ];
 
       for (let index = 0; index < posts.length; index++) {
@@ -58,11 +59,12 @@
             blog.append(lineEl);
         }
 
-        document.append(title);
-        document.append(description);
-        document.append(date);
+        var posDiv = document.getElementById('posts');
+        posDiv.append(title);
+        posDiv.append(description);
+        posDiv.append(date);
         // document.append(tags);
-        document.append(blogs);
+        posDiv.append(blogs);
       }
     </script>
   </body>

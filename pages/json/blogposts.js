@@ -1,7 +1,7 @@
 export const posts = [
   {
     title: "v0.3.4 update blog!!",
-    description: "first blog frfr",
+    description: "first serious blog frfr",
     date: "10/2/2024",
     author: "IdealistCat",
     tags: ["serious"],

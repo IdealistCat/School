@@ -43,24 +43,9 @@
           ]
         }
       ];
-
-      function addPost({title, description, date, author, blog: []}) {
-        var new_post = {
-            title: title,
-            description: description,
-            date: date,
-            author: author,
-            tags: [],
-            blog: blog
-        };
-        posts.push(new_post);
-      }
-
-      addPost({title: 'hey', description: 'wassup', date: '10/1/2024', author: 'idealistcat', blog: ['another test', 'LOL!']})
-
+      
       for (let index = 0; index < posts.length; index++) {
-        const proper_index = posts.length - index; // new post is on bottom so yeah.
-        const post = posts[proper_index];
+        const post = posts[index];
 
         var title = document.createElement("h1");
         var description = document.createElement("h3");

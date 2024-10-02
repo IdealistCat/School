@@ -18,7 +18,7 @@ for (let index = 0; index < posts.length; index++) {
   for (let index = 0; index < post.tags.length; index++) {
     const tag = post.tags[index];
 
-    curTag.innerHTML = "#" + tag + ' ';
+    curTag.innerHTML += "#" + tag + ' ';
     curTag.style = "color: 0x777777";
   }
 

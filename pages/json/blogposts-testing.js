@@ -6,10 +6,9 @@ export const posts = [
       author: "IdealistCat",
       tags: ["serious"],
       blog: [
-        {type: "line", content: "hello world"} 
-      ],
-      img_url: "secretRoom",
-      img_ext: "gif"
+        {type: "line", content: "hello world"},
+        {type: "image", content: "secretRoom", ext:'gif'}
+      ]
     }
   ];
   

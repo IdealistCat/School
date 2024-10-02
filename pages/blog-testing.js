@@ -34,15 +34,30 @@ for (let index = 0; index < posts.length; index++) {
     lineEl.innerHTML = line.content + "</p><p>";
     imgEl.src = `/School/blogStuff/${line.content}.${line.ext != undefined ? line.ext : 'png'}`;
 
-    var element = null;
+    var new_line_element = null;
+    var new_line_content = null;
 
     switch (line_type.toLowerCase()) {
-      case 'image' || 'img' || 'sprite' || 'graphic' || 'spr':
-        element = imgEl;
-      case 'text' || 'line' || 'dialogue' || 'txt' || 'ln' || 'dia':
-        element = lineEl;
+      case 'image':
+        new_line_element = 'p';
+        new_line_content = lineEl.innerHTML;
+      case 'text':
+        new_line_element = 'img';
+        new_line_content = imgEl.src;
     }
-    if (element != null) blog.append(element);
+
+
+    var newEL = document.createElement(new_line_element);
+
+    switch (new_line_element) {
+      case 'p':
+        newEL.innerHTML = new_line_content;
+      case 'img':
+        newEL.src = new_line_content;
+    }
+
+
+    if (new_line_element != null) blog.append(newEL);
   }
 
   var posDiv = document.getElementById("posts");

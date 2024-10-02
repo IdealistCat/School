@@ -41,7 +41,7 @@ Interesting
 
 Endings!
 <br>
-<img src="./readme/v0.3.4/ending4.gif" width="200">
+<img src="./readme/v0.3.4/newending.gif" width="200">
 
 Dont go too far into the mystery though.
 <br>

@@ -33,8 +33,8 @@ for (let index = 0; index < posts.length; index++) {
 
   var posDiv = document.getElementById("posts");
   posDiv.append(title);
-  posDiv.append(description);
   posDiv.append(date);
+  posDiv.append(description);
   // document.append(tags);
   posDiv.append(blog);
 

@@ -1,5 +1,6 @@
 # 0.1.1 - 10/2/2024
 - Blog Page JSON thingerz now can have different img extensions
+- Moved description to be right below blog post title
 
 # 0.1 - 10/1/2024
 - Blog Page with JSONS (i have an addiction)

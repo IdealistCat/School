@@ -51,13 +51,15 @@
             // tags.append(curTag);
         }
 
+        var lineEl = document.createElement('p');
+
         for (let index = 0; index < post.blog.length; index++) {
             const line = post.blog[index];
-            
-            var lineEl = document.createElement('p');
-            lineEl.innerHTML = line;
-            blog.append(lineEl);
+
+            lineEl.innerHTML = line+'</p><br><p>';
         }
+
+        blog.append(lineEl);
 
         var posDiv = document.getElementById('posts');
         posDiv.append(title);

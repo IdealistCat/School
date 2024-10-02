@@ -6,7 +6,7 @@ export const posts = [
       author: "IdealistCat",
       tags: ["serious"],
       blog: [
-        {type: "line", content: "hello world"},
+        {type: "text", content: "hello world"},
         {type: "image", content: "secretRoom", ext:'gif'}
       ]
     }

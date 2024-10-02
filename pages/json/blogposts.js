@@ -10,7 +10,7 @@ export const posts = [
       "because I had no ideas",
       ":(",
       "sadness indeed",
-      "but I knww there was SOMETHING",
+      "but I knew there was SOMETHING",
       "i can do.",
       "but what?",
       '"I could add more to the "red zone" of the school but how?"',

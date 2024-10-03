@@ -1,5 +1,23 @@
 export const posts = [
   {
+    title: "preview update?",
+    description: "the fuck is a preview update here?",
+    date: "10/2/2024",
+    author: "IdealistCat",
+    tags: ["serious"],
+    blog: [
+      "preview updates are like minecraft snapshots",
+      "format is version (v0.4)",
+      "Pr for preview",
+      "Month Integer (10 for October)",
+      "- day (2)",
+      "_ year stuff (24 or2024)",
+      "u then the amount of preview updates for this specific one (1)",
+      "and then you get v0.4 Pre10-2_24u1!",
+      "preview update out now!!!"
+    ]
+  },
+  {
     title: "v0.3.4 update blog!!",
     description: "first serious blog frfr",
     date: "10/2/2024",

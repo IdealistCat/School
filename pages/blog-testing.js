@@ -35,15 +35,12 @@ for (let index = 0; index < posts.length; index++) {
     imgEl.src = `/School/blogStuff/${line.content}.${line.ext != undefined ? line.ext : 'png'}`;
 
     var new_line_element = null;
-    var new_line_content = null;
 
     switch (line_type.toLowerCase()) {
       case 'text':
         new_line_element = 'p';
-        new_line_content = lineEl.innerHTML;
       case 'image':
         new_line_element = 'img';
-        new_line_content = imgEl.src;
     }
 
 
@@ -51,9 +48,9 @@ for (let index = 0; index < posts.length; index++) {
 
     switch (new_line_element) {
       case 'p':
-        newEL.innerHTML = new_line_content;
+        newEL.innerHTML = lineEl.innerHTML;
       case 'img':
-        newEL.src = new_line_content;
+        newEL.src = imgEl.src;
     }
 
 

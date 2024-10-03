@@ -37,13 +37,13 @@ for (let index = 0; index < posts.length; index++) {
 
     switch (line_type) {
       case 'text':
-        // blog.append(lineEl);
+        blog.append(lineEl);
       case 'image':
-        // blog.append(imgEl);
+        blog.append(imgEl);
     }
 
-    lineEl.innerHTML = line_type;
-    blog.append(lineEl);
+    //lineEl.innerHTML = line_type;
+    //blog.append(lineEl);
   }
 
   var posDiv = document.getElementById("posts");

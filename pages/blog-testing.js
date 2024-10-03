@@ -32,6 +32,7 @@ for (let index = 0; index < posts.length; index++) {
 
     var lineEl = document.createElement("p");
     var imgEl = document.createElement('img');
+    
     lineEl.innerHTML = line.content;
     imgEl.src = `/School/blogStuff/${line.content}.${line.ext != undefined ? line.ext : 'png'}`;
 

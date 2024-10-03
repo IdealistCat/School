@@ -44,13 +44,15 @@ for (let index = 0; index < posts.length; index++) {
     }
 
 
-    var newEL = document.createElement(new_line_element);
+    var newEL = '';
 
     switch (new_line_element) {
       case 'p':
-        newEL.innerHTML = lineEl.innerHTML;
+        newEL = '<p>';
+        newEL += `${lineEl.innerHTML}`;
+        newEL += '</p>';
       case 'img':
-        newEL.src = imgEl.src;
+        newEL = `<img src="${imgEl.src}"></img>`;
     }
 
 

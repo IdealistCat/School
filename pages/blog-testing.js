@@ -25,38 +25,22 @@ for (let index = 0; index < posts.length; index++) {
   tags.append(curTag);
 
 
-  var lineEl = document.createElement("p");
-  var imgEl = document.createElement('img');
   for (let index = 0; index < post.blog.length; index++) {
     const line = post.blog[index];
     const line_type = line.type;
 
+
+    var lineEl = document.createElement("p");
+    var imgEl = document.createElement('img');
     lineEl.innerHTML = line.content;
     imgEl.src = `/School/blogStuff/${line.content}.${line.ext != undefined ? line.ext : 'png'}`;
 
-    var new_line_element = null;
-
-    switch (line_type.toLowerCase()) {
+    switch (line_type) {
       case 'text':
-        new_line_element = 'p';
+        blog.append(lineEl);
       case 'image':
-        new_line_element = 'img';
+        blog.append(imgEl);
     }
-
-
-    var newEL = '';
-
-    switch (new_line_element) {
-      case 'p':
-        newEL = '<p>';
-        newEL += `${lineEl.innerHTML}`;
-        newEL += '</p>';
-      case 'img':
-        newEL = `<img src="${imgEl.src}"></img>`;
-    }
-
-
-    if (new_line_element != null) blog.append(newEL);
   }
 
   var posDiv = document.getElementById("posts");

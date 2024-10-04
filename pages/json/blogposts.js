@@ -1,5 +1,22 @@
 export const posts = [
   {
+    title: "next preview update when?",
+    description: "you normally can get this out in a day...",
+    date: "10/3/2024",
+    author: "IdealistCat",
+    tags: ["serious"],
+    blog: [
+      "next preview update is most likely coming saturday or monday",
+      "but not friday",
+      "sorry",
+      "",
+      "I forgot how hard it is to tackle youtube and game dev",
+      "when the video isn't on the game dev",
+      "",
+      "sorry!"
+    ]
+  },
+  {
     title: "preview update?",
     description: "the fuck is a preview update here?",
     date: "10/2/2024",
